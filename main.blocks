@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Z{D@8nuvYWO}Mb}!9+~L">Time</variable></variables><block type="device_forever" id="6yo6jQb[mJ39piUqjC~9" x="-4" y="-247"><statement name="HANDLER"><block type="device_show_leds" id="e9]crX1}0HlgzQY#bC.0"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # # # # 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="KZ!=q,-Q[9X/urTj2,g#"><value name="pause"><shadow type="timePicker"><field name="ms">100</field></shadow><block type="variables_get" id="MK}/KVCJilWD*N3{aGi6"><field name="VAR" id="Z{D@8nuvYWO}Mb}!9+~L">Time</field></block></value><next><block type="device_show_leds" id="h{?j?.+#:wn](7lZi{%G"><field name="LEDS">`
+        . . . . # 
+        . . . # . 
+        . . # . . 
+        . # . . . 
+        # . . . .
+        `</field><next><block type="device_pause" id="TcBOW-C`Q7*Eg5?Y`fr!"><value name="pause"><shadow type="timePicker"><field name="ms">100</field></shadow><block type="variables_get" id="Ao8;.cS/rPd!QHz5o(Q~"><field name="VAR" id="Z{D@8nuvYWO}Mb}!9+~L">Time</field></block></value><next><block type="device_show_leds" id="R0|BhG43cLtb~T!BWGJ2"><field name="LEDS">`
+        # . . . . 
+        . # . . . 
+        . . # . . 
+        . . . # . 
+        . . . . #
+        `</field><next><block type="device_pause" id="5(`B?=/XmUDi)5s41Ycw"><value name="pause"><shadow type="timePicker"><field name="ms">100</field></shadow><block type="variables_get" id="~70R:n3mU:#44LcRuRLA"><field name="VAR" id="Z{D@8nuvYWO}Mb}!9+~L">Time</field></block></value></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="ol9lMb0s{0/:GSVH2J^I" x="235" y="-205"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_change" id="^V1;[+Gw0b+a{9B*mx2("><field name="VAR" id="Z{D@8nuvYWO}Mb}!9+~L">Time</field><value name="VALUE"><shadow type="math_number" id="IoeDgC[w.oSNn+W.675-"><field name="NUM">300</field></shadow></value></block></statement></block><block type="device_button_event" id="yvYRH:%:J!M_?,DB5pv2" x="240" y="-64"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="variables_change" id="RBRx]D^o$pLS$7@N[(~V"><field name="VAR" id="Z{D@8nuvYWO}Mb}!9+~L">Time</field><value name="VALUE"><shadow type="math_number" id="C^}1W!|eo8XTY;@2I3#7"><field name="NUM">-300</field></shadow></value></block></statement></block></xml>
